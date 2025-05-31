@@ -1,23 +1,14 @@
 if SHIELD_DACTYL_MANUFORM_LEFT
-
-    config ZMK_KEYBOARD_NAME
-        default "DACTYL-L"
-
-    config ZMK_SPLIT_BLE_ROLE_CENTRAL
-        default y
-
-endif
-
-if SHIELD_DACTYL_MANUFORM_RIGHT
-
-    config ZMK_KEYBOARD_NAME
-        default "DACTYL-R"
+    
+    CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+    CONFIG_ZMK_KEYBOARD_NAME="Dactyl-M"
+    CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS=1
 
 endif
 
 if SHIELD_DACTYL_MANUFORM_LEFT || SHIELD_DACTYL_MANUFORM_RIGHT
-
-    config ZMK_SPLIT
-        default y
+    
+    CONFIG_ZMK_SPLIT=y
+    CONFIG_ZMK_SPLIT_BLE=y
 
 endif
