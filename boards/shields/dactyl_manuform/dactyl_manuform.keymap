@@ -28,7 +28,7 @@
                                  &kp LBKT &kp RBKT                                      &kp PLUS &kp EQUAL
                                             &mo LWR  &kp SPACE            &kp RET  &mo RSE
                                             &kp LGUI &kp HOME             &kp BSPC &kp GRAVE
-                                            &kp LCTRL &kp LALT            &kp DEL  &RCTRL
+                                            &kp LCTRL &kp LALT            &kp DEL  &kp RCTRL
             >;
         };
 
