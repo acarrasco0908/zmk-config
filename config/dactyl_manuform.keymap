@@ -22,13 +22,13 @@
         default_layer { // layer 0
             display-name = "Default";
             bindings = <
-                &kp TAB   &kp Q  &kp W  &kp E  &kp R  &kp T               &kp Y  &kp U  &kp I     &kp O   &kp P    &kp GRAVE
+                &kp TAB   &kp Q  &kp W  &kp E  &kp R  &kp T               &kp Y  &kp U  &kp I     &kp O   &kp P    &kp MINUS
                 &kp ESC   &kp A  &kp S  &kp D  &kp F  &kp G               &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT
                 &kp LSHFT &kp Z  &kp X  &kp C  &kp V  &kp B               &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHIFT
                                  &kp LBKT &kp RBKT                                      &kp PLUS &kp EQUAL
                                             &mo LWR  &kp SPACE            &kp RET  &mo RSE
-                                            &kp TAB  &kp HOME             &kp END  &kp DEL
-                                            &kp BSPC &kp GRAVE            &kp LGUI &kp LALT
+                                            &kp LGUI &kp HOME             &kp BSPC &kp GRAVE
+                                            &kp LCTRL &kp LALT            &kp DEL  &RCTRL
             >;
         };
 
@@ -61,9 +61,9 @@
         adjust_layer { // layer 3
             display-name = "BLE and Media";
             bindings = <
-                &none  &none  &none  &none  &none       &none            &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none &none
-                &none  &none  &none  &none  &none       &none            &out OUT_BLE &out OUT_USB &none        &out BT_CLR  &none &none
-                &none  &none  &none  &none  &sys_reset  &bootloader      &bootloader  &sys_reset   &none        &none        &none &none
+                &none  &none  &none  &none  &none       &none            &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none
+                &none  &none  &none  &none  &none       &none            &out OUT_BLE &out OUT_USB &none        &out BT_CLR  &none        &none
+                &none  &none  &none  &none  &sys_reset  &bootloader      &bootloader  &sys_reset   &none        &none        &none        &none
                               &none  &none                                                         &none        &none
                                             &none       &none            &none        &none
                                             &none       &none            &none        &none
