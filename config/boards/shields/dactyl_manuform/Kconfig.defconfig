@@ -9,6 +9,12 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+if SHIELD_DACTYL_MANUFORM_RIGHT
+
+# Nothing for right side
+
+endif
+
 if SHIELD_DACTYL_MANUFORM_LEFT || SHIELD_DACTYL_MANUFORM_RIGHT
     
 config ZMK_SPLIT
