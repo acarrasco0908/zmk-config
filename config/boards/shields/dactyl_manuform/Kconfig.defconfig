@@ -1,23 +1,24 @@
 if SHIELD_DACTYL_MANUFORM_LEFT
     
-# Name must be less than 16 characters long!
-config ZMK_KEYBOARD_NAME
-    	default "Dactyl-M"
+	    # Name must be less than 16 characters long!
+	    config ZMK_KEYBOARD_NAME
+		    default "Left Dactyl"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    	default y
+	    config ZMK_SPLIT_ROLE_CENTRAL
+		    default y
 
 endif
 
 if SHIELD_DACTYL_MANUFORM_RIGHT
 
-# Nothing for right side
+	    config ZMK_KEYBOARD_NAME
+		    default "Right Dactyl"
 
 endif
 
 if SHIELD_DACTYL_MANUFORM_LEFT || SHIELD_DACTYL_MANUFORM_RIGHT
     
-config ZMK_SPLIT
-    	default y
+	    config ZMK_SPLIT
+		    default y
 
 endif
