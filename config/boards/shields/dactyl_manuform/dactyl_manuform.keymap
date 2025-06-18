@@ -21,8 +21,8 @@
                         &kp LSHFT &kp Z &kp X    &kp C    &kp V     &kp B               &kp N     &kp M    &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                                         &kp LBKT &kp RBKT                                                  &kp LPAR  &kp RPAR
                                                           &mo LWR   &kp RET             &kp SPACE &mo RSE
-                                                          &kp LCTRL &kp HOME            &kp BSPC  &kp DEL
-                                                          &kp LALT  &kp LGUI            &kp EQUAL &kp PLUS
+                                                          &kp LCTRL &kp LALT            &kp BSPC  &kp RCTRL
+                                                          &kp HOME  &kp LGUI            &kp DEL   &kp EQUAL
                     >;
                 };
 
@@ -30,7 +30,7 @@
                     display-name = "Lower";
                     bindings = <
                         &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5          &kp F6 &kp F7  &kp F8 &kp F9 &kp F10 &kp F11
-                        &trans  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5          &kp N6 &kp N7  &kp N8 &kp N9 &kp N0  &trans
+                        &GRAVE  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5          &kp N6 &kp N7  &kp N8 &kp N9 &kp N0  &trans
                         &trans  &trans &trans &trans &trans &trans          &trans &trans  &trans &trans &trans  &trans
                                        &trans &trans                                       &trans &trans
                                                      &trans &trans          &trans &mo ADJ
